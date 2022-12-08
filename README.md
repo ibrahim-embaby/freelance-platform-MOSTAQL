@@ -1,6 +1,6 @@
 # Redesigning Mostaql.com
 
-Mostaql is a freelancing platform that connects freelancers with work owners.\
+Mostaql is a freelancing platform that connects freelancers with project owners.\
 **link:** [mostaql.com](mostaql.com)
 in this project, I am trying to redesign the UI of this website using React.js
 
