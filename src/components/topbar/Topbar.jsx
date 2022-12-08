@@ -36,7 +36,7 @@ function Topbar() {
                 <div className="topbarRight">
 
                     <Link to="/profile" className="topbarCategoryContainer">
-                        <span className="topbarCategoryText">ب</span>
+                        <span className="topbarCategoryText">أعمالي</span>
                         <Work className="topbarCategoryIcon" />
                     </Link>
                     <Link to="/bids" className="topbarCategoryContainer">
