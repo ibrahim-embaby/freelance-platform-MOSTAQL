@@ -52,8 +52,8 @@ function Home() {
                             <span style={{ "fontSize": "36px" }}>0</span>
                         </div>
                         <div className="homeRightMessagesBottom">
-                            <div className="homeRightMessagesBottomItem">الرسائل الواردة 0</div>
-                            <div className="homeRightMessagesBottomItem">الرسائل الصادرة 0</div>
+                            <div className="homeRightMessagesBottomItem">الرسائل الواردة <span style={{ "fontWeight": "bold", "marginRight": "5px" }}>0</span></div>
+                            <div className="homeRightMessagesBottomItem">الرسائل الصادرة <span style={{ "fontWeight": "bold", "marginRight": "5px" }}>0</span></div>
                         </div>
                     </div>
                     <div className="homeRightWorks homeRightItem">
@@ -62,7 +62,7 @@ function Home() {
                             <span style={{ "fontSize": "36px" }}>0</span>
                         </div>
                         <div className="homeRightWorksBottom">
-                            <MdAddCircle />
+                            <MdAddCircle style={{ "marginLeft": "5px" }} />
                             أضف عمل
                         </div>
                     </div>
@@ -119,8 +119,8 @@ function Home() {
                     <div className="homeLeftCash homeLeftItem">
                         <div className="homeLeftCashTop border">
                             <div className="homeLeftCashTopItem">
-                                <h4 style={{ "marginBottom": "7px", "marginTop": "7px", "lineHeight": "1.84", "fontWeight": "500" }}>الرصيد الكلي</h4>
-                                <span style={{ "fontSize": "48px", "lineHeight": "1.46" }}>$0.00</span>
+                                <h4 style={{ "marginBottom": "7px", "marginTop": "7px", "lineHeight": "1.84", "fontWeight": "500", "color": "#1abc9c" }}>الرصيد الكلي</h4>
+                                <span style={{ "fontSize": "48px", "lineHeight": "1.46", "color": "#1abc9c" }}>$0.00</span>
                             </div>
                             <div className="homeLeftCashTopItem">
                                 <h4 style={{ "marginBottom": "7px", "marginTop": "7px", "lineHeight": "1.84", "fontWeight": "500" }}>الرصيد القابل للسحب</h4>
@@ -128,16 +128,17 @@ function Home() {
                             </div>
                         </div>
                         <div className="homeLeftCashBottom">
-                            <div className="homeLeftCashBottomItem">الرصيد المتاح 0.00$</div>
-                            <div className="homeLeftCashBottomItem">الرصيد المعلق 0.00$</div>
+                            <div className="homeLeftCashBottomItem">الرصيد المتاح <span style={{ "fontWeight": "bold", "marginRight": "5px" }}>$0.00</span></div>
+                            <div className="homeLeftCashBottomItem">الرصيد المعلق <span style={{ "fontWeight": "bold", "marginRight": "5px" }}>$0.00</span></div>
                         </div>
                     </div>
 
 
                     <div className="homeLeftOffers homeLeftItem">
+
                         <div className="homeLeftOffersBottom">
-                            <div className="homeLeftOffersBottomItem">الرسائل الواردة 0</div>
-                            <div className="homeLeftOffersBottomItem">الرسائل الصادرة 0</div>
+                            <div className="homeLeftOffersBottomItem">يستكمل ...</div>
+                            {/* <div className="homeLeftOffersBottomItem">الرسائل الصادرة 0</div> */}
                         </div>
                     </div>
                     <div className="homeLeftProjects homeLeftItem"></div>
