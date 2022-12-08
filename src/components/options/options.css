@@ -1,0 +1,38 @@
+.options {
+    font-size: 14px;
+    color: #222;
+}
+
+.optionsSearch {
+    width: 90%;
+    border: 1px solid #cccccc;
+    outline: none;
+    background-color: #fafafa;
+    padding: 5px 10px 5px 0px;
+    margin-bottom: 15px;
+}
+
+.optionsSearch:focus {
+    outline: 1px solid #2386c8;
+}
+
+.optionsTitle {
+    margin-bottom: 15px;
+
+}
+
+.optionsClassification {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+
+.optionsItem {
+    margin-bottom: 15px;
+}
+
+.optionsLabel {
+    display: inline-block;
+    margin-right: 5px;
+}

@@ -1,0 +1,188 @@
+.addProjectWrapper {
+    display: flex;
+    direction: rtl;
+    background-color: #efefef;
+    padding: 0px 15px;
+}
+
+.addProjectForm {
+    flex: 8;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.projectInputTitle {
+    color: #222;
+    font-size: 14px;
+}
+
+sup {
+    color: red;
+    font-size: 15px;
+}
+
+
+.projectInput {
+    outline: none;
+    margin: 10px 0px 5px 0;
+    font-size: 16px;
+    padding: 2px 15px 2px 0;
+    color: #555555;
+    border: 1px solid #ccc;
+    writing-mode: horizontal-tb !important;
+}
+
+.projectInput:focus:invalid {
+    border: 1px solid rgb(255, 61, 61);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgba(233, 102, 102, 0.6);
+}
+
+.projectInput:focus {
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+
+.projectInputNote {
+    font-size: 13px;
+    color: #626262;
+    font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.projectPayment {
+    display: flex;
+    align-items: center;
+}
+
+.inputContainer.half {
+    flex: 5;
+}
+
+.inputContainer.half:first-child {
+    margin-left: 30px;
+}
+
+.specialInput .projectInput {
+    flex: 11;
+}
+
+.specialInput {
+    display: flex;
+}
+
+.projectTimeDays {
+    flex: 1;
+    background-color: #eeeeee;
+    color: #555;
+    font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 5px 0;
+
+}
+
+.fileChooser {
+    margin-top: 10px;
+    display: flex;
+    padding: 15px 20px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.fileChooser:hover .fileChooserIconContainer {
+    background-color: #2386c8;
+    color: #fff;
+}
+
+.fileChooserIconContainer {
+    font-size: 25px;
+    color: #bababa;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 18px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.fileChooserTitle {
+    font-size: 18px;
+}
+
+.fileChooserDesc {
+    color: #777777;
+    font-size: 14px;
+}
+
+.addProjectInfo {
+    flex: 4;
+    padding: 0px 30px 0 0;
+
+}
+
+.infoTitle {
+    color: #314450;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.infoDesc {
+    margin-bottom: 40px;
+    color: #314459;
+    font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.infoDesc.list {
+    padding-right: 40px;
+}
+
+.infoDesc.list li {
+    font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.projectControls {
+    background-color: #efefef;
+    direction: rtl;
+    padding: 22px 15px;
+}
+
+.projectControls .blue {
+    background-color: #1e75ae;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.projectControls .blue:hover {
+    background-color: #2386c8;
+    border-color: #1e75ae;
+}
+
+.projectControlsButton {
+    padding: 5px 16px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    border: 1px solid #bababa;
+    color: #575858;
+    cursor: pointer;
+}
+
+.projectControlsButton:hover {
+    background-color: #fff;
+    border: 1px solid #c2c2c2;
+}

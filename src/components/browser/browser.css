@@ -1,0 +1,26 @@
+.browser {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pageNumber,
+.pageArrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.pageArrow {
+    font-size: 10px;
+}
+
+.active {
+    background-color: #2386c8;
+    color: #fff;
+}

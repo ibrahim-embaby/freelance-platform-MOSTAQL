@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 15px;
+    align-items: flex-end;
+    background-color: #f0f0f0;
+    direction: rtl;
+
+}
+
+.headerSelect {
+    width: 70px;
+    direction: rtl;
+    outline: none;
+    background-color: #f5f5f5;
+    border: 0.5px #c2c2c2 solid;
+    color: #575858;
+    font-size: 12px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.headerSelect:hover {
+    background-color: #fff;
+}
+
+.headerRight {
+    direction: rtl;
+}
+
+.headerPath {
+    color: #77869b;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.headerTitle {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #222;
+}
+
+.howButton {
+    padding: 5px 10px;
+    border: 0.5px #bababa solid;
+    color: #575858;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.howButton:hover {
+    background-color: #fff;
+}

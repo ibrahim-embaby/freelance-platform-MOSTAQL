@@ -1,0 +1,102 @@
+.topbar {
+    background-color: #2386c8;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    height: 60px;
+    top: 0;
+    color: #efefef;
+}
+
+.topbarLeft {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.userImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 18px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
+.userImg {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.topbarIconContainer {
+    background-color: #2386c8;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    padding: 21px 16px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 18px !important;
+}
+
+.topbarIconContainer:hover,
+.userImgContainer:hover,
+.topbarCategoryContainer:hover,
+.topbarList:hover {
+    background-color: #46adf1;
+}
+
+.topbarRight {
+    display: flex;
+    align-items: center;
+}
+
+.topbarCategoryContainer {
+    display: flex;
+    align-items: center;
+    color: #efefef;
+    padding: 16.5px 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+}
+
+.topbarCategoryText {
+    font-size: 14px;
+}
+
+.topbarCategoryIcon {
+    font-size: 16px !important;
+    margin-left: 5px;
+}
+
+.topbarLogoContainer {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.topbarLogo {
+    width: 120px;
+    height: 33px;
+}
+
+.topbarList {
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.topbarListIcon {
+    font-size: 28px !important;
+}
