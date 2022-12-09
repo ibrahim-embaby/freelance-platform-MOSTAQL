@@ -167,10 +167,6 @@
     margin-left: 15px;
 }
 
-.border {
-    border-bottom: 1px solid #ddd;
-
-}
 
 .homeLeft {
     flex: 8;
@@ -188,6 +184,17 @@
     text-align: center;
 }
 
+.homeLeftCashTopItemHeader {
+    margin: 7px 0;
+    line-height: 1.84;
+    font-weight: 500
+}
+
+.homeLeftCashTopItemNumber {
+    font-size: 48px;
+    line-height: 1.46;
+}
+
 .homeLeftCashBottom {
     font-size: 14px;
     display: flex;
@@ -200,4 +207,23 @@
     justify-content: center;
     line-height: 1.428571429;
     padding: 7px 0;
+}
+
+
+
+
+
+
+
+.m5 {
+    margin-right: 5px;
+}
+
+.border {
+    border-bottom: 1px solid #ddd;
+
+}
+
+.bold {
+    font-weight: bold;
 }
