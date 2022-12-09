@@ -9,5 +9,7 @@ in this project, I am trying to clone the UI of this website using React.js
 " target="_blank">https://ibrahim-embaby.github.io/freelance-platform-MOSTAQL/
 </a>
 
+<img src="./public/assets/mostaql_ui.png"/>
+
 ### Used Tools
 <em> ReactJS, JSX, CSS 
