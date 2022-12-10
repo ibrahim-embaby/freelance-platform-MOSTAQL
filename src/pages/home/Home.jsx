@@ -202,7 +202,9 @@ function Home() {
                             <div className="homeLeftOffersBottomItem">العروض المتبقية <span className='bold m5 zeroColor'>10</span></div>
                         </div>
                     </div>
-                    <div className="homeLeftProjects homeLeftItem"></div>
+                    <div className="homeLeftProjects homeLeftItem" style={{ "padding": "14px 21px", "textAlign": "center" }}>
+                        يستكمل ...
+                    </div>
                     <div className="homeLeftLast homeLeftItem"></div>
                 </div>
 
