@@ -128,17 +128,78 @@ function Home() {
                             </div>
                         </div>
                         <div className="homeLeftCashBottom">
-                            <div className="homeLeftCashBottomItem">الرصيد المتاح <span className='bold m5' >$0.00</span></div>
-                            <div className="homeLeftCashBottomItem">الرصيد المعلق <span className='bold m5'>$0.00</span></div>
+                            <div className="homeLeftCashBottomItem">الرصيد المتاح <span className='bold m5 zeroColor' >$0.00</span></div>
+                            <div className="homeLeftCashBottomItem">الرصيد المعلق <span className='bold m5 zeroColor'>$0.00</span></div>
                         </div>
                     </div>
 
 
                     <div className="homeLeftOffers homeLeftItem">
+                        <div className="homeLeftOffersTop border">
 
+                            <div className="homeLeftOffersTopRight">
+                                <h4 className=' homeLeftOffersTopRightTitle m7 lh' >عروضي</h4>
+                                <span style={{ 'fontSize': '36px' }}>1</span>
+                            </div>
+                            <div className="homeLeftOffersTopLeft">
+                                <div className="homeLeftOffersTopLeftItem">
+                                    <div className="homeLeftOffersTopLeftItemInfo">
+                                        <div className="homeLeftOffersTopLeftItemInfoRight">
+                                            0 بانتظار الموافقة
+                                        </div>
+                                        <div className="homeLeftOffersTopLeftItemInfoLeft">0%</div>
+                                    </div>
+                                    <div className="homeLeftOffersTopLeftItemBar">
+                                        <span className='underProgress'></span>
+                                        <span className='progress'></span>
+                                    </div>
+                                </div>
+
+                                <div className="homeLeftOffersTopLeftItem">
+                                    <div className="homeLeftOffersTopLeftItemInfo">
+                                        <div className="homeLeftOffersTopLeftItemInfoRight">
+                                            0 قيد التنفيذ
+                                        </div>
+                                        <div className="homeLeftOffersTopLeftItemInfoLeft">0%</div>
+                                    </div>
+                                    <div className="homeLeftOffersTopLeftItemBar">
+                                        <span className='underProgress'></span>
+                                        <span className='progress'></span>
+                                    </div>
+                                </div>
+
+                                <div className="homeLeftOffersTopLeftItem">
+                                    <div className="homeLeftOffersTopLeftItemInfo">
+                                        <div className="homeLeftOffersTopLeftItemInfoRight">
+                                            0  المكتملة
+                                        </div>
+                                        <div className="homeLeftOffersTopLeftItemInfoLeft">0%</div>
+                                    </div>
+                                    <div className="homeLeftOffersTopLeftItemBar">
+                                        <span className='underProgress'></span>
+                                        <span className='progress'></span>
+                                    </div>
+                                </div>
+
+                                <div className="homeLeftOffersTopLeftItem">
+                                    <div className="homeLeftOffersTopLeftItemInfo">
+                                        <div className="homeLeftOffersTopLeftItemInfoRight">
+                                            0  المستبعدة
+                                        </div>
+                                        <div className="homeLeftOffersTopLeftItemInfoLeft">0%</div>
+                                    </div>
+                                    <div className="homeLeftOffersTopLeftItemBar">
+                                        <span className='underProgress'></span>
+                                        <span className='progress'></span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
                         <div className="homeLeftOffersBottom">
-                            <div className="homeLeftOffersBottomItem">يستكمل ...</div>
-                            {/* <div className="homeLeftOffersBottomItem">الرسائل الصادرة 0</div> */}
+                            <div className="homeLeftOffersBottomItem">العروض المتاحة <span className='bold m5 zeroColor' >10</span></div>
+                            <div className="homeLeftOffersBottomItem">العروض المتبقية <span className='bold m5 zeroColor'>10</span></div>
                         </div>
                     </div>
                     <div className="homeLeftProjects homeLeftItem"></div>
