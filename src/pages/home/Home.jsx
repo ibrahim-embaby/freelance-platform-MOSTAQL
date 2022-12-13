@@ -120,16 +120,16 @@ function Home() {
                         <div className="homeLeftCashTop border">
                             <div className="homeLeftCashTopItem">
                                 <h4 className='homeLeftCashTopItemHeader' style={{ "color": "#1abc9c" }}>الرصيد الكلي</h4>
-                                <span className='homeLeftCashTopItemNumber' style={{ "color": "#1abc9c" }}>$0.00</span>
+                                <span className='homeLeftCashTopItemNumber' style={{ "color": "#1abc9c" }}>$1,823.50</span>
                             </div>
                             <div className="homeLeftCashTopItem">
                                 <h4 className='homeLeftCashTopItemHeader' >الرصيد القابل للسحب</h4>
-                                <span className='homeLeftCashTopItemNumber'>$0.00</span>
+                                <span className='homeLeftCashTopItemNumber'>$1,072.50</span>
                             </div>
                         </div>
                         <div className="homeLeftCashBottom">
-                            <div className="homeLeftCashBottomItem">الرصيد المتاح <span className='bold m5 zeroColor' >$0.00</span></div>
-                            <div className="homeLeftCashBottomItem">الرصيد المعلق <span className='bold m5 zeroColor'>$0.00</span></div>
+                            <div className="homeLeftCashBottomItem">الرصيد المتاح <span className='bold m5 zeroColor' >$1,072.50</span></div>
+                            <div className="homeLeftCashBottomItem">الرصيد المعلق <span className='bold m5 zeroColor'>$751.00</span></div>
                         </div>
                     </div>
 
@@ -139,58 +139,58 @@ function Home() {
 
                             <div className="homeLeftOffersTopRight">
                                 <h4 className=' homeLeftOffersTopRightTitle m7 lh' >عروضي</h4>
-                                <span style={{ 'fontSize': '36px' }}>1</span>
+                                <span style={{ 'fontSize': '36px' }}>12</span>
                             </div>
                             <div className="homeLeftOffersTopLeft">
                                 <div className="homeLeftOffersTopLeftItem">
                                     <div className="homeLeftOffersTopLeftItemInfo">
                                         <div className="homeLeftOffersTopLeftItemInfoRight">
-                                            0 بانتظار الموافقة
+                                            1 بانتظار الموافقة
                                         </div>
-                                        <div className="homeLeftOffersTopLeftItemInfoLeft">0%</div>
+                                        <div className="homeLeftOffersTopLeftItemInfoLeft">9%</div>
                                     </div>
                                     <div className="homeLeftOffersTopLeftItemBar">
                                         <span className='underProgress'></span>
-                                        <span className='progress'></span>
+                                        <span className='progress progress1'></span>
                                     </div>
                                 </div>
 
                                 <div className="homeLeftOffersTopLeftItem">
                                     <div className="homeLeftOffersTopLeftItemInfo">
                                         <div className="homeLeftOffersTopLeftItemInfoRight">
-                                            0 قيد التنفيذ
+                                            1 قيد التنفيذ
                                         </div>
-                                        <div className="homeLeftOffersTopLeftItemInfoLeft">0%</div>
+                                        <div className="homeLeftOffersTopLeftItemInfoLeft">9%</div>
                                     </div>
                                     <div className="homeLeftOffersTopLeftItemBar">
                                         <span className='underProgress'></span>
-                                        <span className='progress'></span>
+                                        <span className='progress progress2'></span>
                                     </div>
                                 </div>
 
                                 <div className="homeLeftOffersTopLeftItem">
                                     <div className="homeLeftOffersTopLeftItemInfo">
                                         <div className="homeLeftOffersTopLeftItemInfoRight">
-                                            0  المكتملة
+                                            5  المكتملة
                                         </div>
-                                        <div className="homeLeftOffersTopLeftItemInfoLeft">0%</div>
+                                        <div className="homeLeftOffersTopLeftItemInfoLeft">42%</div>
                                     </div>
                                     <div className="homeLeftOffersTopLeftItemBar">
                                         <span className='underProgress'></span>
-                                        <span className='progress'></span>
+                                        <span className='progress progress3'></span>
                                     </div>
                                 </div>
 
                                 <div className="homeLeftOffersTopLeftItem">
                                     <div className="homeLeftOffersTopLeftItemInfo">
                                         <div className="homeLeftOffersTopLeftItemInfoRight">
-                                            0  المستبعدة
+                                            4  المستبعدة
                                         </div>
-                                        <div className="homeLeftOffersTopLeftItemInfoLeft">0%</div>
+                                        <div className="homeLeftOffersTopLeftItemInfoLeft">34%</div>
                                     </div>
                                     <div className="homeLeftOffersTopLeftItemBar">
                                         <span className='underProgress'></span>
-                                        <span className='progress'></span>
+                                        <span className='progress progress4'></span>
                                     </div>
                                 </div>
 

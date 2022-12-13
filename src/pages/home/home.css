@@ -275,12 +275,34 @@
 
 .progress {
     position: absolute;
-    width: 50%;
     height: 100%;
-    background-color: #2386C8;
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
     right: 0;
     top: 0;
+}
+
+.progress1 {
+    width: 9%;
+    background-color: #2e8b57;
+
+}
+
+.progress2 {
+    width: 9%;
+    background-color: #3f51b5;
+
+}
+
+.progress3 {
+    width: 42%;
+    background-color: #314459;
+
+}
+
+.progress4 {
+    width: 34%;
+    background-color: #da3623;
+
 }
 
 
