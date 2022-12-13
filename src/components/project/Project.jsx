@@ -21,7 +21,7 @@ function Project(props) {
                         <span className='projectHeaderRightText'> {props.offersNumber}</span>
                     </div>
                 </div>
-                <div className="projectHeaderLeft">
+                {props.button && <div className="projectHeaderLeft">
                     <button className="projectHeaderLeftButton">
                         <span className="projectHeaderLeftButtonRight">
                             <BiPlusMedical style={{ "marginLeft": "5px" }} />
@@ -30,7 +30,7 @@ function Project(props) {
                         <ArrowDropDown className='projectHeaderLeftButtonDropDown' style={{ "border-right": "0.1px solid #1c6ca1" }} />
                     </button>
 
-                </div>
+                </div>}
             </div>
             <div className="projectDesc">{props.description}</div>
         </div>

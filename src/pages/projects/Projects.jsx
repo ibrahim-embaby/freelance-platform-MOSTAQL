@@ -21,17 +21,17 @@ function Home() {
 
                 <div className="mainBody">
                     <div className="mainOffers">
-                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" />
-                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" />
-                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" />
-                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" />
-                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" />
-                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" />
-                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" />
-                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" />
-                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" />
-                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" />
-                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" />
+                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" button />
+                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" button />
+                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" button />
+                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" button />
+                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" button />
+                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" button />
+                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" button />
+                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" button />
+                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" button />
+                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" button />
+                        <Project title="عنوان المشروع" username="اسم المستخدم" time="منذ 7 دقائق" offersNumber="عرض واحد" description="تفاصيل المشروع" button />
 
                         <Browser />
                     </div>

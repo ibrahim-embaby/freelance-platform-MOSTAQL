@@ -2,12 +2,12 @@ import './home.css'
 import Topbar from '../../components/topbar/Topbar'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
+import Project from '../../components/project/Project'
 import { BiSliderAlt } from 'react-icons/bi'
 import { HiCheckCircle } from 'react-icons/hi'
 import { MdAddCircle } from 'react-icons/md'
 import { TbCircle } from 'react-icons/tb'
 import { QueryBuilder } from '@material-ui/icons'
-
 import { useEffect } from 'react'
 
 
@@ -113,7 +113,6 @@ function Home() {
                     </div>
                 </div>
 
-
                 <div className="homeLeft">
 
                     <div className="homeLeftCash homeLeftItem">
@@ -132,7 +131,6 @@ function Home() {
                             <div className="homeLeftCashBottomItem">الرصيد المعلق <span className='bold m5 zeroColor'>$751.00</span></div>
                         </div>
                     </div>
-
 
                     <div className="homeLeftOffers homeLeftItem">
                         <div className="homeLeftOffersTop border">
@@ -202,10 +200,38 @@ function Home() {
                             <div className="homeLeftOffersBottomItem">العروض المتبقية <span className='bold m5 zeroColor'>10</span></div>
                         </div>
                     </div>
-                    <div className="homeLeftProjects homeLeftItem" style={{ "padding": "14px 21px", "textAlign": "center" }}>
-                        يستكمل ...
+
+                    <div className="homeLeftProjects homeLeftItem">
+                        <div className="homeLeftProjectsTop border">آخر مشاريع برمجة، تطوير المواقع والتطبيقات</div>
+                        <div className="homeLeftProjectsBottom">
+                            <Project className="homeLeftProjectsBottomItem" title="حل مشكلة تثبيت سكربت لارافل" username="Fahad A." time="منذ 34 دقيقة" offersNumber="أضف أول عرض" />
+                            <Project className="homeLeftProjectsBottomItem" title="إنشاء تطبيق للجوال" username=" Ali A." time=" منذ 38 دقيقة" offersNumber=" 14 عرض" />
+                            <Project className="homeLeftProjectsBottomItem" title="تصميم موقع على الوردبريس" username=" Khadijah A." time="منذ 47 دقيقة" offersNumber="عرض واحد" />
+                            <Project className="homeLeftProjectsBottomItem" title="برمجة إضافة أداة في قوقل كروم لمساعدة المعلمين على تحضير الدروس لمنصة مدرستي" username=" Bader A." time=" منذ 52 دقيقة" offersNumber=" أضف أول عرض" />
+                            <Project className="homeLeftProjectsBottomItem" title="تصميم صفحة اندكس واحدة احترافية لحين فتح الموقع" username=" Bader A." time="منذ ساعة" offersNumber=" 7 عروض" />
+
+                        </div>
+
                     </div>
-                    <div className="homeLeftLast homeLeftItem"></div>
+
+                    <div className="homeLeftLast homeLeftItem">
+                        <div className="homeLeftLastTop border">
+                            <img width="100px" src="assets/academy-logo.png" alt="" />
+                        </div>
+                        <div className="homeLeftLastBottom">
+                            <div className="homeLeftLastBottomItem lh">
+                                <span className='homeLeftLastBottomItemTitle'> دورة إدارة تطوير المنتجات</span>
+                                <span className='homeLeftLastBottomItemTitle'>دورة علوم الحاسوب</span>
+                                <span className='homeLeftLastBottomItemTitle'>تطوير تطبيقات الويب باستخدام لغة JavaScript</span>
+                                <span className='homeLeftLastBottomItemTitle'>تطوير تطبيقات الويب باستخدام لغة Python</span>
+                            </div>
+                            <div className="homeLeftLastBottomItem lh">
+                                <span className='homeLeftLastBottomItemTitle'>تطوير واجهات المستخدم</span>
+                                <span className='homeLeftLastBottomItemTitle'>تطوير تطبيقات الويب باستخدام لغة PHP</span>
+                                <span className='homeLeftLastBottomItemTitle'>تطوير تطبيقات الويب باستخدام لغة Ruby</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
