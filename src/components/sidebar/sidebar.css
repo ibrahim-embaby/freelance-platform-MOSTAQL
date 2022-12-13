@@ -5,7 +5,7 @@
     height: 100vh;
     direction: rtl;
     display: flex;
-
+    z-index: 5;
 }
 
 .overlay {
