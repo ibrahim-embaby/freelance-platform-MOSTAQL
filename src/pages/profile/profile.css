@@ -1,0 +1,98 @@
+.personalInfo {
+    direction: rtl;
+
+}
+
+.personalInfoTop {
+    text-align: center;
+    padding: 49px 0px;
+
+}
+
+.personalInfoTopImg {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+}
+
+.personalInfoTopUsername {
+    font-size: 24px;
+    line-height: 1.428571429;
+    color: #222;
+}
+
+.personalInfoTopDetails {
+    font-size: 12px;
+    color: #6c757d;
+    display: flex;
+    justify-content: center;
+}
+
+.personalInfoTopDetailsIconContainer {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.personalInfoTopDetailsIcon,
+.personalInfoBottomLeftItemIcon {
+    margin-left: 5px;
+}
+
+.personalInfoBottom {
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.personalInfoBottomLeft {
+    display: flex;
+}
+
+.personalInfoBottomLeftItem {
+    padding: 16px 15px;
+    cursor: pointer;
+    line-height: 2;
+    color: #314459;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease-in;
+}
+
+.personalInfoBottomLeftItem:hover {
+    background-color: #f0f0f0;
+
+}
+
+.active {
+    background-color: #f0f0f0;
+}
+
+.personalInfoBottomRight {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #1e75ae;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.personalInfoBottomRight:hover {
+    background-color: #2386c8;
+}
+
+.personalInfoBottomRightIcon {
+    margin-left: 5px;
+}
+
+.profileWrapper {
+    background-color: #f0f0f0;
+    padding: 48px 0px;
+}

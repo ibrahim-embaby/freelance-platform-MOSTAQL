@@ -32,6 +32,10 @@
     margin-bottom: 15px;
 }
 
+.optionsInput {
+    cursor: pointer;
+}
+
 .optionsLabel {
     display: inline-block;
     margin-right: 5px;
