@@ -20,7 +20,7 @@ function Topbar() {
             <div className='topbar'>
                 <div className="topbarLeft">
                     <div className="userImgContainer">
-                        <img className='userImg' src="assets/user.png" alt="" />
+                        <img className='userImg' src={process.env.PUBLIC_URL + "/assets/user.png"} alt="" />
                     </div>
 
                     <div className="topbarIconContainer">
@@ -35,7 +35,7 @@ function Topbar() {
                 </div>
                 <div className="topbarRight">
 
-                    <Link to="/profile" className="topbarCategoryContainer">
+                    <Link to="/profile/portfolio" className="topbarCategoryContainer">
                         <span className="topbarCategoryText">أعمالي</span>
                         <Work className="topbarCategoryIcon" />
                     </Link>
@@ -52,7 +52,7 @@ function Topbar() {
                         <BiPlusMedical size="14" className="topbarCategoryIcon" />
                     </Link>
                     <Link to="/" className="topbarLogoContainer">
-                        <img className='topbarLogo' src="assets/logo.png" alt="" />
+                        <img className='topbarLogo' src={process.env.PUBLIC_URL + "/assets/logo.png"} alt="" />
                     </Link>
                     <div className="topbarList" onClick={handleClick}>
                         <Dehaze className='topbarListIcon' />

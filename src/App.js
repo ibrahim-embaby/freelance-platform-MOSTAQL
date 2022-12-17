@@ -1,4 +1,5 @@
 import Projects from "./pages/projects/Projects";
+import Portfolio from "./pages/portfolio/Portfolio";
 import Profile from "./pages/profile/Profile";
 import { Routes, Route } from 'react-router-dom';
 import AddProject from "./pages/addProject/AddProject";
@@ -14,6 +15,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/create" element={<AddProject />} />
         <Route path="/bids" element={<MyOffers />} />
+        <Route path="/profile/portfolio" element={<Portfolio />} />
       </Routes>
     </>
   );

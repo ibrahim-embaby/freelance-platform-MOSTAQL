@@ -25,7 +25,7 @@ function Home() {
                 <div className="homeRight">
                     <div className="homeRightInfo homeRightItem">
                         <div className="homeRightInfoTop border">
-                            <img className='homeRightInfoTopImg' src="assets/user.png" alt="" />
+                            <img className='homeRightInfoTopImg' src={process.env.PUBLIC_URL + "/assets/user.png"} alt="" />
                             اسم المستخدم
                         </div>
                         <div className="homeRightInfoBottom">
