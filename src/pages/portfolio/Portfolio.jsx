@@ -12,10 +12,11 @@ function Portfolio() {
     return (
         <div className='portfolio'>
             <Topbar />
-            <ProfileHeader />
+            <ProfileHeader portfolio />
             <div className="portfolioWrapper">
-                <div className="portfolioWrapperRight"></div>
-                <div className="portfolioWrapperLeft"></div>
+                <div className="portfolioBody">
+                    لا توجد نتائج بحث
+                </div>
             </div>
             <Footer />
         </div>

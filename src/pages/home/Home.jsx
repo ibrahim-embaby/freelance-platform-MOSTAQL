@@ -106,7 +106,7 @@ function Home() {
                     <div className="homeRightLast homeRightItem">
                         <div className="homeRightLastTop border">تعرف على أنا</div>
                         <div className="homeRightLastBottom">
-                            <img className='homeRightLastBottomImg' src="assets/ana-logo.png" alt="" />
+                            <img className='homeRightLastBottomImg' src={process.env.PUBLIC_URL + "/assets/ana-logo.png"} alt="" />
                             أداة واحدة تجمع كل ما تحتاجه لإدارة مشاريعك وفريق عملك عن بعد
 
                         </div>
@@ -216,7 +216,7 @@ function Home() {
 
                     <div className="homeLeftLast homeLeftItem">
                         <div className="homeLeftLastTop border">
-                            <img width="100px" src="assets/academy-logo.png" alt="" />
+                            <img width="100px" src={process.env.PUBLIC_URL + "/assets/academy-logo.png"} alt="" />
                         </div>
                         <div className="homeLeftLastBottom">
                             <div className="homeLeftLastBottomItem lh">

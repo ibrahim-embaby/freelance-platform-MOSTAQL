@@ -71,7 +71,7 @@ function Footer() {
             </div>
             <div className="footerBottom">
                 <div className="footerBottomLogo">
-                    <img className="footerBottomLogoImg" src="assets/hasoub.png" alt="" />
+                    <img className="footerBottomLogoImg" src={process.env.PUBLIC_URL + "/assets/hasoub.png"} alt="" />
                 </div>
                 <div className="footerBottomItems">
                     <div className="footerBottomItemsWrapper">
