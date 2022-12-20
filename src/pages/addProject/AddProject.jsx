@@ -1,7 +1,5 @@
 import { useEffect } from 'react'
-import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
-import Topbar from '../../components/topbar/Topbar'
 import './addProject.css'
 import { FaCloudUploadAlt } from 'react-icons/fa'
 
@@ -12,7 +10,6 @@ function AddProject() {
     }, []);
     return (
         <div className='addProject'>
-            <Topbar />
             <Header path="الرئيسية / مشاريعي" title="إضافة مشروع" how noFilter />
             <form >
                 <div className="addProjectWrapper">
@@ -106,7 +103,6 @@ function AddProject() {
                     <button className='projectControlsButton'>حفظ كمسودة</button>
                 </div>
             </form>
-            <Footer />
         </div>
     )
 }

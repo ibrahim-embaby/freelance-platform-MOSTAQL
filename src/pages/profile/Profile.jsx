@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
-import Footer from '../../components/footer/Footer'
-import Topbar from '../../components/topbar/Topbar'
+
 import './profile.css'
 import ProfileHeader from '../../components/profileHeader/ProfileHeader'
 
@@ -12,13 +11,11 @@ function Profile() {
     }, [])
     return (
         <div className='profile'>
-            <Topbar />
             <ProfileHeader />
             <div className="profileWrapper">
                 <div className="profileWrapperRight"></div>
                 <div className="profileWrapperLeft"></div>
             </div>
-            <Footer />
         </div>
     )
 }

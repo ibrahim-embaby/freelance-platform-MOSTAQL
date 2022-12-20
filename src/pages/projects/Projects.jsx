@@ -1,10 +1,8 @@
 import { useEffect } from 'react'
 import Browser from '../../components/browser/Browser'
-import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
 import Project from '../../components/project/Project'
 import Options from '../../components/options/Options'
-import Topbar from '../../components/topbar/Topbar'
 import './projects.css'
 
 
@@ -15,7 +13,6 @@ function Home() {
     }, [])
     return (
         <>
-            <Topbar className="topbar" />
             <Header path="الرئيسية / المشاريع" title="المشاريع المفتوحة" />
             <div className="main">
 
@@ -42,7 +39,6 @@ function Home() {
                 </div>
 
             </div>
-            <Footer />
         </>
     )
 }

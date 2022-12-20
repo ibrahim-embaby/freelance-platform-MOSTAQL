@@ -1,6 +1,4 @@
 import './home.css'
-import Topbar from '../../components/topbar/Topbar'
-import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
 import Project from '../../components/project/Project'
 import { BiSliderAlt } from 'react-icons/bi'
@@ -19,7 +17,6 @@ function Home() {
     }, [])
     return (
         <div className='home'>
-            <Topbar />
             <Header path="الرئيسية" title="لوحة التحكم" noFilter />
             <div className="homeWrapper">
                 <div className="homeRight">
@@ -235,7 +232,6 @@ function Home() {
                 </div>
 
             </div>
-            <Footer />
         </div >
 
     )
