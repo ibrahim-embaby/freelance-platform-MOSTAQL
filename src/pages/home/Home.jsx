@@ -8,8 +8,6 @@ import { TbCircle } from 'react-icons/tb'
 import { QueryBuilder } from '@material-ui/icons'
 import { useEffect } from 'react'
 
-
-
 function Home() {
     useEffect(() => {
         document.title = "   لوحة التحكم  | مستقل"
