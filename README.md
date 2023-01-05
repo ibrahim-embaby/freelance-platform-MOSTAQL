@@ -14,11 +14,15 @@ in this project, I am trying to clone the UI of this website using React.js
 
 ## Install
 
-`npm install`
+```bash
+npm install
+```
 
 ## Usage
 
-`npm start`
+```bash
+npm start
+```
 
 ## Used Tools
 
