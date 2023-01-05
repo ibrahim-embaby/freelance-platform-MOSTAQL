@@ -12,12 +12,13 @@ in this project, I am trying to clone the UI of this website using React.js
 
 <img src="./public/assets/mostaql_ui.png"/>
 
-## TL;DR
+## Install
 
-To get started developing right away:
+`npm install`
 
-- install all project dependencies with `npm install`
-- start the development server with `npm start`
+## Usage
+
+`npm start`
 
 ## Used Tools
 
