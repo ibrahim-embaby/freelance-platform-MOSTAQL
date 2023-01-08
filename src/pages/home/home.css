@@ -4,6 +4,7 @@
     padding: 0px 15px;
     direction: rtl;
     color: #575858;
+    
 }
 
 .homeRight {
@@ -360,4 +361,15 @@
 
 .zeroColor {
     color: #314459;
+}
+
+@media (max-width:991px) {
+    .homeWrapper{
+        flex-direction: column;
+    }
+    .homeRight {
+        flex: 1;
+        margin-left: 0;
+    }
+    
 }
