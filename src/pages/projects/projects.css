@@ -1,7 +1,6 @@
 .main {
-    padding: 0px 20px;
+    padding: 0px 20px 50px 20px;
     background-color: #f0f0f0;
-    padding-bottom: 30px;
 }
 
 .mainBody {
@@ -22,3 +21,17 @@
         display: none;
     }
 }
+
+@media (max-width: 767px) {
+    .projectHeaderLeft{
+       display: none;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .main{
+        padding: 0px 0px 50px 0;
+    }
+}
+

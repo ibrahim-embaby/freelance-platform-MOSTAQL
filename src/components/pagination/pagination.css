@@ -1,4 +1,4 @@
-.browser {
+.pagination {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -23,4 +23,11 @@
 .active {
     background-color: #2386c8;
     color: #fff;
+}
+
+
+button:disabled{
+    background-color: #eaeaea;
+    cursor: not-allowed;
+    color: #a9a9a9;
 }

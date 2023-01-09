@@ -54,3 +54,9 @@
 .howButton:hover {
     background-color: #fff;
 }
+
+@media (max-width: 480px) {
+    .headerTitle{
+        font-size: 18px;
+    }
+}
