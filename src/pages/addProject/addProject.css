@@ -186,3 +186,9 @@ sup {
     background-color: #fff;
     border: 1px solid #c2c2c2;
 }
+
+@media (max-width: 991px) {
+    .addProjectInfo{
+        display: none;
+    }
+}

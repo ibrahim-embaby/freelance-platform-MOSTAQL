@@ -16,3 +16,9 @@
     flex: 3;
     direction: rtl;
 }
+
+@media (max-width: 991px) {
+    .mainOptions{
+        display: none;
+    }
+}
