@@ -296,9 +296,6 @@
 
 }
 
-
-
-
 .homeLeftOffersTopRight {
     flex: 4;
     display: flex;
@@ -372,4 +369,21 @@
         margin-left: 0;
     }
     
+}
+
+@media (max-width: 767px) {
+    .homeLeftCashTop, .homeLeftOffersTop  {
+        flex-direction: column;
+    }
+
+    .homeLeftOffersTopLeft{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: unset;
+    }
+
+    .homeLeftLastBottom {
+        flex-direction: column;
+    }
 }

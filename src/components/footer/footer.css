@@ -49,7 +49,6 @@
 
 .footerTopLeft {
     flex: 3;
-
 }
 
 .footerCenter {
@@ -116,5 +115,37 @@
     .footerBottomItemsWrapper{
         padding: 0px 20px;
         width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .footerTop {
+        flex-direction: column-reverse;
+    }
+    .footerTopRight{
+        flex-direction: column;
+    }
+    .footerTopRightSection{
+        margin-bottom: 10px;
+    }
+
+    .footerTopLeft{
+        margin-top: 15px;   
+        padding: 0 20px;
+    }
+
+    .footerTopLeftTop{
+        margin-bottom: 0;
+    }
+    .footerCenter{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer{
+        display: none;
     }
 }

@@ -1,7 +1,8 @@
 .sidebar {
     position: fixed;
+
     right: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     direction: rtl;
     display: flex;
@@ -15,8 +16,11 @@
 
 .sidebarWrapper {
     height: 100vh;
+
     background-color: #fff;
     width: 250px;
+    overflow: scroll;
+
 }
 
 .sidebarInput {
@@ -51,4 +55,13 @@
 
 .sidebarListItemIcon {
     margin-left: 5px;
+}
+
+@media (max-width: 767px) {
+    .overlay{
+        display: none;
+    }
+    .sidebarWrapper{
+        width: 100vw;
+    }
 }

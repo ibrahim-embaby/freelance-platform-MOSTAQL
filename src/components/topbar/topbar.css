@@ -74,17 +74,27 @@
 }
 
 .topbarLogoContainer {
-    width: 140px;
     display: flex;
-    align-items: center;
     justify-content: center;
     cursor: pointer;
     padding: 0 5px;
 }
 
-.topbarLogo {
+.topbarLogoContainer.big {
+    width: 140px;
+}
+
+.topbarLogoContainer.small {
+    display: none;
+}
+
+.topbarLogo.big {
     width: 120px;
     height: 33px;
+}
+
+.topbarLogo.small {
+    width: 36px;
 }
 
 .topbarList {
@@ -99,4 +109,36 @@
 
 .topbarListIcon {
     font-size: 28px !important;
+}
+
+@media (max-width: 910px) {
+
+    .topbarRight{
+        position: absolute;
+        right: 0;
+    }
+
+    .topbarLeft{
+        z-index: 10;
+        background-color: #2386c8;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .topbarCategoryContainer{
+        display: none;
+    }
+
+    .topbarLogoContainer.big {
+        display: none;
+    }
+    
+    .topbarLogoContainer.small {
+        display: flex;
+    }
+
+    .topbarIconContainer.search{
+        display: none;
+    }
 }
