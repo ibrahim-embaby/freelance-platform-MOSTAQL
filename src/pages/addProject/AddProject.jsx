@@ -3,9 +3,11 @@ import Header from "../../components/header/Header";
 import "./addProject.css";
 import { FaCloudUploadAlt } from "react-icons/fa";
 
-function AddProject() {
+function AddProject({ setSidebar }) {
   useEffect(() => {
     document.title = "   إضافة مشروع  | مستقل";
+    setSidebar(false);
+    window.scrollTo({ top: 0 });
   }, []);
   return (
     <div className="addProject">

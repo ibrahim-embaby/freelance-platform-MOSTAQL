@@ -7,14 +7,8 @@ import { Link } from "react-router-dom";
 import { BiPlusMedical } from "react-icons/bi";
 
 import Sidebar from "../../components/sidebar/Sidebar";
-import { useState } from "react";
 
-function Topbar() {
-  const [sidebar, setSidebar] = useState(false);
-
-  const handleClick = () => {
-    setSidebar(!sidebar);
-  };
+function Topbar({ sidebar, setSidebar }) {
   return (
     <>
       <div className="topbar">
@@ -68,7 +62,7 @@ function Topbar() {
               alt=""
             />
           </Link>
-          <div className="topbarList" onClick={handleClick}>
+          <div className="topbarList" onClick={() => setSidebar(!sidebar)}>
             <Dehaze className="topbarListIcon" />
           </div>
         </div>

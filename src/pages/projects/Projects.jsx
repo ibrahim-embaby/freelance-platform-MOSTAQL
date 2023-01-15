@@ -6,9 +6,11 @@ import Options from "../../components/options/Options";
 import "./projects.css";
 import { projects } from "../../data";
 
-function Home() {
+function Home({ setSidebar }) {
   useEffect(() => {
     document.title = "المشاريع المفتوحة | مستقل";
+    setSidebar(false);
+    window.scrollTo({ top: 0 });
   }, []);
 
   const PROJECTS_PER_PAGE = 6;
@@ -18,6 +20,10 @@ function Home() {
   const startIndex = (currentPageNumber - 1) * PROJECTS_PER_PAGE;
   const endIndex = currentPageNumber * PROJECTS_PER_PAGE;
   const projectsInsidePage = projects.slice(startIndex, endIndex);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [currentPageNumber]);
 
   return (
     <>

@@ -12,6 +12,14 @@
     margin-bottom: 10px;
 }
 
+.label{
+    background-color: #9e9e9e;
+    color: #fff;
+    font-weight:400;
+    font-size: 75%;
+    padding: 1px 5px;
+}
+
 .projectHeaderRightTitle {
     color: #2386c8;
     font-size: 15px;
@@ -20,7 +28,7 @@
 }
 
 .projectHeaderRightIcons {
-    color: #777;
+    color: #777 !important;
     font-size: 11px !important;
     display: flex;
     align-items: center;

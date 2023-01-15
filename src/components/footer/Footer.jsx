@@ -1,5 +1,5 @@
-import { Facebook, Twitter } from "@material-ui/icons";
 import "./footer.css";
+import { Facebook, Twitter } from "@material-ui/icons";
 import { FaCcVisa, FaCcPaypal, FaCcMastercard } from "react-icons/fa";
 function Footer() {
   return (

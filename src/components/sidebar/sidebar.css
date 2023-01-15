@@ -1,26 +1,53 @@
 .sidebar {
     position: fixed;
-
     right: 0;
+    top: 60px;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     direction: rtl;
     display: flex;
     z-index: 5;
+    
+}
+
+.sidebar.appear{
+    transform: translateX(0);
+}
+
+.sidebar.disappear{
+    transform: translateX(100%);
 }
 
 .overlay {
     background-color: rgba(51, 51, 51, 0.3);
     width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.overlay.appear{
+    opacity: 1;
+}
+
+.overlay.disappear{
+    opacity: 0;
 }
 
 .sidebarWrapper {
-    height: 100vh;
-
     background-color: #fff;
-    width: 250px;
-    overflow: scroll;
+    position: absolute;
+    overflow: auto;
+    width: 255px;
+    height: 100%;
+    transition: all 0.5s ;
+}
 
+.sidebarWrapper.appear{
+    transform: translateX(0px);
+}
+
+.sidebarWrapper.disappear{
+    transform: translateX(100%);
 }
 
 .sidebarInput {
