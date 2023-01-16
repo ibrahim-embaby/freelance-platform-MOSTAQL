@@ -35,7 +35,7 @@ function Sidebar({ sidebar }) {
             <GiTicket className="sidebarListItemIcon" />
             عروضي
           </Link>
-          <Link to="/profile" className="sidebarListItem">
+          <Link to="/profile/portfolio" className="sidebarListItem">
             <MdWork className="sidebarListItemIcon" />
             أعمالي
           </Link>

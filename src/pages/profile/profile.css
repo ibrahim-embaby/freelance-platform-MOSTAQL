@@ -1,4 +1,96 @@
 .profileWrapper {
-    background-color: #f0f0f0;
-    padding: 48px 0px;
+  background-color: #f0f0f0;
+  display: flex;
+  direction: rtl;
+  padding: 48px 18px 45px 18px;
+}
+
+.profileWrapperRight {
+  width: 66%;
+  margin-left: 15px;
+}
+
+.profileWrapperRightBioBottom {
+  font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.profileWrapperRightSkillsBottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillBadge {
+  background-color: #2386c8;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 6px;
+  margin-left: 5px;
+  margin-bottom: 6px;
+  line-height: 1.428571429;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag,
+.star,
+.icon {
+  margin-left: 5px;
+}
+
+.profileWrapperLeft {
+  width: 34%;
+  margin-right: 15px;
+}
+
+.profileWrapperRightStatisticsCenter,
+.profileWrapperRightStatisticsBottom,
+.profileWrapperRightVerificationsBottom,
+.profileWrapperRightAchievementsBottom {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #222;
+}
+
+.tableRow {
+  display: flex;
+  align-items: center;
+  line-height: 1.428571429;
+}
+
+.tableRow .tableRowSection:first-child {
+  padding: 8px 0px 8px 8px;
+}
+
+.tableRow .tableRowSection:last-child {
+  padding: 8px;
+}
+
+.tableRowSection {
+  flex: 6;
+  display: flex;
+  align-items: center;
+}
+
+.profileWrapperRightStatisticsCenterLeftReviews {
+  display: flex;
+  align-items: center;
+}
+
+.p21 {
+  padding: 21px;
+}
+
+.p14 {
+  padding: 14px;
+}
+
+.bc-white {
+  background-color: #fff;
+}
+
+.mb21 {
+  margin-bottom: 21px;
 }
