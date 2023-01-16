@@ -8,7 +8,7 @@ import { FaList } from "react-icons/fa";
 import { BiPlusMedical } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
-function Sidebar({ sidebar }) {
+function Sidebar({ sidebar, setView }) {
   // const [side, setSide] = useState(sidebar)
   // const handleClick = () => {
   //     setSide(!side)
@@ -35,7 +35,11 @@ function Sidebar({ sidebar }) {
             <GiTicket className="sidebarListItemIcon" />
             عروضي
           </Link>
-          <Link to="/profile/portfolio" className="sidebarListItem">
+          <Link
+            to="/profile/portfolio"
+            className="sidebarListItem"
+            onClick={() => setView("portfolio")}
+          >
             <MdWork className="sidebarListItemIcon" />
             أعمالي
           </Link>

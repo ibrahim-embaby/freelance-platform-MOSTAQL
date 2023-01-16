@@ -94,3 +94,22 @@
 .mb21 {
   margin-bottom: 21px;
 }
+
+/* Media Query */
+
+@media (max-width: 991px) {
+  .profileWrapper {
+    flex-direction: column;
+  }
+  .profileWrapperRight,
+  .profileWrapperLeft {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .profileWrapper {
+    padding: 0;
+  }
+}

@@ -8,7 +8,7 @@ import { BiPlusMedical } from "react-icons/bi";
 
 import Sidebar from "../../components/sidebar/Sidebar";
 
-function Topbar({ sidebar, setSidebar }) {
+function Topbar({ sidebar, setSidebar, setView }) {
   return (
     <>
       <div className="topbar">
@@ -32,7 +32,11 @@ function Topbar({ sidebar, setSidebar }) {
           </div>
         </div>
         <div className="topbarRight">
-          <Link to="/profile/portfolio" className="topbarCategoryContainer">
+          <Link
+            to="/profile/portfolio"
+            className="topbarCategoryContainer"
+            onClick={() => setView("portfolio")}
+          >
             <span className="topbarCategoryText">أعمالي</span>
             <Work className="topbarCategoryIcon" />
           </Link>
@@ -67,7 +71,7 @@ function Topbar({ sidebar, setSidebar }) {
           </div>
         </div>
       </div>
-      <Sidebar sidebar={sidebar} />
+      <Sidebar sidebar={sidebar} setView={setView} />
     </>
   );
 }

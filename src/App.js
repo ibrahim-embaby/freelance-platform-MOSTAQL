@@ -14,7 +14,7 @@ function App() {
   const [view, setView] = useState("portfolio");
   return (
     <>
-      <Topbar sidebar={sidebar} setSidebar={setSidebar} />
+      <Topbar sidebar={sidebar} setSidebar={setSidebar} setView={setView} />
       <Routes>
         <Route path="/" element={<Home setSidebar={setSidebar} />} />
         <Route
