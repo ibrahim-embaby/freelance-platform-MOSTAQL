@@ -4,13 +4,14 @@ import { BiPlusMedical, BiCalendar } from "react-icons/bi";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 
 import "./project.css";
+import { Link } from "react-router-dom";
 
 function Project(props) {
   return (
     <div className="project">
       <div className="projectHeader">
         <div className="projectHeaderRight">
-          <div className="projectHeaderRightTitle">
+          <Link to={`/project/${props.id}`} className="projectHeaderRightTitle">
             {props.offer && (
               <>
                 <bdi className="label">مُغلق</bdi>{" "}
@@ -18,7 +19,7 @@ function Project(props) {
             )}
 
             {props.title}
-          </div>
+          </Link>
           <div className="projectHeaderRightIcons">
             <Person className="projectHeaderRightIcon" />
             <span className="projectHeaderRightText">{props.username}</span>

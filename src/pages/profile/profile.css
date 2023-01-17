@@ -2,22 +2,12 @@
   background-color: #f0f0f0;
   display: flex;
   direction: rtl;
-  padding: 48px 18px 45px 18px;
+  padding: 48px 18px 24px 18px;
 }
 
 .profileWrapperRight {
   width: 66%;
   margin-left: 15px;
-}
-
-.profileWrapperRightBioBottom {
-  font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-}
-
-.profileWrapperRightSkillsBottom {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .skillBadge {
@@ -31,6 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .tag,
@@ -84,7 +75,7 @@
 }
 
 .p14 {
-  padding: 14px;
+  padding: 14px 21px;
 }
 
 .bc-white {
@@ -110,6 +101,6 @@
 
 @media (max-width: 480px) {
   .profileWrapper {
-    padding: 0;
+    padding: 48px 0 24px 0;
   }
 }

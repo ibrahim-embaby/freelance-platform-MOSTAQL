@@ -34,6 +34,7 @@ function Home({ setSidebar }) {
             {projectsInsidePage.map((project) => (
               <Project
                 key={project.id}
+                id={project.id}
                 title={project.title}
                 username={project.username}
                 time={project.time}

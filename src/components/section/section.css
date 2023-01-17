@@ -1,0 +1,17 @@
+.section {
+  background-color: #fff;
+  margin-bottom: 21px;
+}
+
+.sectionTop {
+  border-bottom: 1px solid #ddd;
+  padding: 14px 21px;
+}
+
+.sectionBottom {
+  padding: 21px;
+  font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}

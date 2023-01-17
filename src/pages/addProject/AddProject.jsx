@@ -35,8 +35,7 @@ function AddProject({ setSidebar }) {
                 تفاصيل المشروع <sup>*</sup>
               </label>
               <textarea
-                style={{ resize: "vertical" }}
-                className="projectInput"
+                className="projectInput projectTextarea"
                 name=""
                 id="projectDetails"
                 rows="10"

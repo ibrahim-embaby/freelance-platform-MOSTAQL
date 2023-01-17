@@ -8,6 +8,7 @@ import Home from "./pages/home/Home";
 import Footer from "./components/footer/Footer";
 import Topbar from "./components/topbar/Topbar";
 import { useState } from "react";
+import ProjectDetails from "./pages/projectDetails/ProjectDetails";
 
 function App() {
   const [sidebar, setSidebar] = useState(false);
@@ -37,6 +38,10 @@ function App() {
           element={
             <Portfolio setSidebar={setSidebar} view={view} setView={setView} />
           }
+        />
+        <Route
+          path="/project/:id"
+          element={<ProjectDetails setSidebar={setSidebar} />}
         />
       </Routes>
       <Footer />

@@ -1,0 +1,50 @@
+.projectDetailsWrapper {
+  background-color: #f0f0f0;
+  display: flex;
+  direction: rtl;
+  padding: 0px 18px 24px 18px;
+}
+
+.projectDetailsWrapperRight {
+  width: 66%;
+  margin-left: 15px;
+}
+
+.projectDetailsWrapperLeft {
+  width: 34%;
+  margin-right: 15px;
+}
+
+.projectUserImage {
+  width: 64px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.projectUserInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectUserInfo span:last-child {
+  color: #737373 !important;
+  font-size: 13px !important;
+  font-family: "Noto Naskh Arabic", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+@media (max-width: 991px) {
+  .projectDetailsWrapper {
+    flex-direction: column;
+  }
+  .projectDetailsWrapperRight,
+  .projectDetailsWrapperLeft {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .projectDetailsWrapper {
+    padding: 0px 0px 24px 0px;
+  }
+}
