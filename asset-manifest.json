@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/freelance-platform-MOSTAQL/static/css/main.3151ac98.css",
-    "main.js": "/freelance-platform-MOSTAQL/static/js/main.c78e310c.js",
+    "main.js": "/freelance-platform-MOSTAQL/static/js/main.231b5271.js",
     "index.html": "/freelance-platform-MOSTAQL/index.html",
     "main.3151ac98.css.map": "/freelance-platform-MOSTAQL/static/css/main.3151ac98.css.map",
-    "main.c78e310c.js.map": "/freelance-platform-MOSTAQL/static/js/main.c78e310c.js.map"
+    "main.231b5271.js.map": "/freelance-platform-MOSTAQL/static/js/main.231b5271.js.map"
   },
   "entrypoints": [
     "static/css/main.3151ac98.css",
-    "static/js/main.c78e310c.js"
+    "static/js/main.231b5271.js"
   ]
 }
